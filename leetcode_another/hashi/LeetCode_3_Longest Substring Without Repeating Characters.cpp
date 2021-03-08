@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 #include <string>
 class Solution {
 public:
@@ -35,5 +35,6 @@ int main(){
 	std::string s = "abcbadab";
 	Solution solve;
 	printf("%d\n", solve.lengthOfLongestSubstring(s));	
+	system("pause");
 	return 0;
 }
